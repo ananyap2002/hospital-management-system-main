@@ -1,0 +1,362 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #2ecc71;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* Add styles for the registration form */
+#registration {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#registration h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+#registration label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#registration input, #registration select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#registration button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#registration button:hover {
+    background-color: #2980b9;
+}
+
+/* Style the registration confirmation message */
+#registration div {
+    background-color: #eaf7dc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#registration div h3 {
+    color: #27ae60;
+}
+/* Add styles for the lab tests module */
+#lab {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#lab h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+#lab label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#lab input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#lab button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#lab button:hover {
+    background-color: #2980b9;
+}
+
+#testResults {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none;
+}
+
+#testResults h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+#testResultText {
+    color: #333;
+}
+
+
+/* Add styles for the consultation module */
+#consultation {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#consultation h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+#consultation label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#consultation input, #consultation select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#consultation button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#consultation button:hover {
+    background-color: #2980b9;
+}
+
+#consultationResults {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none;
+}
+
+#consultationResults h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+#consultationResultText {
+    color: #333;
+}
+/* Add styles for the consultation module */
+#consultation {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#consultation h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+#consultation label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#consultation input, #consultation select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#consultation button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#consultation button:hover {
+    background-color: #2980b9;
+}
+
+#consultationResults {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none;
+}
+
+#consultationResults h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+#consultationResultText {
+    color: #333;
+}
+/* Add styles for the pharmacy module */
+#pharmacy {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#pharmacy h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+#medicineForm label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#medicineForm input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#medicineForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#medicineForm button:hover {
+    background-color: #2980b9;
+}
+
+#medicineList {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#medicineList h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+#medicineItems {
+    list-style-type: none;
+    padding: 0;
+}
+
+#medicineItems li {
+    margin-bottom: 5px;
+    color: #333;
+}
